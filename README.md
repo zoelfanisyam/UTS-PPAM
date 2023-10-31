@@ -1,3 +1,3 @@
 # UTS-PPAM
-Nama   : Wildan Fathu Rijan (1217050141) 
+<hr>Nama   : Wildan Fathu Rijan (1217050141) 
 <br>TUGAS UTS PRAKTIKUM PENGEMBANGAN APLIKASI MOBILE.
