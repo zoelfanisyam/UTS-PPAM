@@ -72,6 +72,7 @@
     </LinearLayout>
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -92,6 +93,7 @@
             tools:layout_editor_absoluteY="473dp" />
 
     <TextView
+        android:id="@+id/sigone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
@@ -102,10 +104,12 @@
         android:textStyle="bold"
         android:justificationMode="inter_word"
         android:padding="15dp"
+        android:visibility="gone"
         android:text="Terima kasih Pa Asep sudah memesan
 ditoko kami, pesanan Pepperoni Pizza
 anda dikirim menggunakan Fast Delivery "/>
 
-    </LinearLayout>
+    </LinearLayout
+        >
 
 </LinearLayout>

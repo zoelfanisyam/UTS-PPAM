@@ -24,14 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnSubmit = findViewById<Button>(R.id.submitButton)
         btnSubmit?.setOnClickListener {
-            val selectedLocation = spinner.selectedItem.toString()
-
-            val inputNama = findViewById<EditText>(R.id.name)
-            val nama = inputNama.text.toString()
-
-            val intent = Intent(this, Tampilan2::class.java)
-            intent.putExtra("NAMA", nama)
-            intent.putExtra("LOCATION", selectedLocation)
+            val intent = Intent(this, tampilan2::class.java)
             startActivity(intent)
         }
 
