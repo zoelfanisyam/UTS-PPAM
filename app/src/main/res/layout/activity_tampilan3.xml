@@ -1,9 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".tampilan3">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/perso_male" />
+
+        <TextView
+            android:id="@+id/pengguna"
+            android:layout_width="340dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/gammenu1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/img" />
+
+        <TextView
+            android:id="@+id/deskripsigammenu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="8.5pt"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="Pepperoni Pizza
+Cocok bagi anda yang ingin merasakan pizza original dengan taburan keju dan daging asap yang lezat"/>
+        </LinearLayout>
+
+    <LinearLayout
+    android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/gammenu2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/foto_spageti1" />
+
+        <TextView
+            android:id="@+id/deskripsigammenu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="8.5pt"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="Spaghetti
+Cocok bagi anda yang ingin merasakan spaghetti original dengan bumbu yang oriental"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/gammenu3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/foto_burger1" />
+
+        <TextView
+            android:id="@+id/deskripsigammenu3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="8.5pt"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="Burger
+Cocok bagi anda yang ingin merasakan kelembutan burger berlapiskan keju, sayuran dan daging yang tebal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/gammenu4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/foto_steak1" />
+
+        <TextView
+            android:id="@+id/deskripsigammenu4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="8.5pt"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="Steak
+Cocok bagi anda yang ingin merasakan lezatnya daging steak dipadukan dengan kentang yang lezat"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Restoranceban"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
             android:name=".tampilan4"
             android:exported="false" />
         <activity
