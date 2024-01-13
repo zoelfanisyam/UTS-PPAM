@@ -1,4 +1,4 @@
 # UTS-PPAM
-<hr>Nama   : Wildan Fathu Rijan (1217050141) 
+<hr>Nama   : Hisyam Arief Zulfani (1217050065) 
 <br>TUGAS UTS PRAKTIKUM PENGEMBANGAN APLIKASI MOBILE.
 <hr>
